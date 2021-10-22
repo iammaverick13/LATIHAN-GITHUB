@@ -9,3 +9,6 @@ def sub(a, b):
 
 def dev(a, b):
   return a / b
+
+def round(a):
+  return math.round(a)
