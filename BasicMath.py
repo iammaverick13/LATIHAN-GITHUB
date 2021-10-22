@@ -8,7 +8,10 @@ def sub(a, b):
   return a - b
 
 def dev(a, b):
-  return a / b
+  return (int)(a / b)
 
 def round(a):
   return math.round(a)
+  
+def square(a, b):
+  return a**b
